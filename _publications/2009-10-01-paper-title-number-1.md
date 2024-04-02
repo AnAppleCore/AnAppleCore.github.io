@@ -1,15 +1,15 @@
 ---
-title: "Paper Title Number 1"
+title: "Orchestrate Latent Expertise: Advancing Online Continual Learning with Multi-Level Supervision and Reverse Self-Distillation"
 collection: publications
 permalink: /publication/2009-10-01-paper-title-number-1
-excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
-date: 2009-10-01
-venue: 'Journal 1'
-paperurl: 'http://academicpages.github.io/files/paper1.pdf'
-citation: 'Your Name, You. (2009). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
+excerpt: 'This paper is about our proposed online continual learning algorithm MOSE, which is inspired by the multi-level feature extraction and cross-layer communication inherent to animal neural circuits, aiming to enhance the model's adaptivity to dynamic distributions and resistance against forgetting.'
+date: 2024-04-02
+venue: 'IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)'
+paperurl: 'https://arxiv.org/pdf/2404.00417'
+citation: 'Hongwei Yan, Liyuan Wang, Kaisheng Ma, and Yi Zhong. (2024). &quot;Orchestrate Latent Expertise: Advancing Online Continual Learning with Multi-Level Supervision and Reverse Self-Distillation.&quot; <i>IEEE/CVF Conference on Computer Vision and Pattern Recognition</i>. 1(1).'
 ---
-This paper is about the number 1. The number 2 is left for future work.
+This paper is about our proposed online continual learning algorithm MOSE, which is inspired by the multi-level feature extraction and cross-layer communication inherent to animal neural circuits, aiming to enhance the model's adaptivity to dynamic distributions and resistance against forgetting.
 
-[Download paper here](http://academicpages.github.io/files/paper1.pdf)
+[Download paper here](https://arxiv.org/pdf/2404.00417)
 
-Recommended citation: Your Name, You. (2009). "Paper Title Number 1." <i>Journal 1</i>. 1(1).
+Hongwei Yan, Liyuan Wang, Kaisheng Ma, and Yi Zhong. (2024). &quot;Orchestrate Latent Expertise: Advancing Online Continual Learning with Multi-Level Supervision and Reverse Self-Distillation.&quot; <i>IEEE/CVF Conference on Computer Vision and Pattern Recognition</i>. 1(1).
