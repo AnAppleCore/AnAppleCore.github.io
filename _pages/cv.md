@@ -37,10 +37,9 @@ Skills
 
 Publications
 ======
-  <ul>{% [CVPR 2024] Orchestrate Latent Expertise: Advancing Online Continual Learning with Multi-Level Supervision and Reverse Self-Distillation %}
-    {% **Hongwei Yan**, Liyuan Wang*, Kaisheng Ma*, and Yi Zhong* %}
-  {% IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) %}
-  {% [Paper](https://arxiv.org/pdf/2404.00417) [Code](https://github.com/AnAppleCore/MOSE) %}</ul>
+  <ul>{% for post in site.publications %}
+    {% include archive-single-cv.html %}
+  {% endfor %}</ul>
   
 <!-- Talks
 ======
