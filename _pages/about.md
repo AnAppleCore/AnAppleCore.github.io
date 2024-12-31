@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-> Veritas Invictus!
+> Veritas Invicta!
 
 - 👋Hi there! I'm a PhD student in the School of Life Sciences at Tsinghua University, working with Professor [Yi Zhong](https://life.tsinghua.edu.cn/info/1035/2478.htm) and Professor [Kaisheng Ma](https://group.iiis.tsinghua.edu.cn/~maks/leader.html).
 - 🤖My research interests are in the field of **brain-inspired AI** and **continual learning**, with a focus on developing machine learning models that can learn and adapt to new tasks and environments and preserve their knowledge and skills over time.
