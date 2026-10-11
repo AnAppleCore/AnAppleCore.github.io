@@ -1,37 +1,17 @@
 ---
-layout: archive
+layout: research
 title: "Sitemap"
 permalink: /sitemap/
-author_profile: true
+description: "Main pages and publication details on Hongwei Yan's academic website."
 ---
 
-{% include base_path %}
-
-A list of all the posts and pages found on the site. For you robots out there is an [XML version]({{ base_path }}/sitemap.xml) available for digesting as well.
-
-<h2>Pages</h2>
-{% for post in site.pages %}
-  {% include archive-single.html %}
-{% endfor %}
-
-<h2>Posts</h2>
-{% for post in site.posts %}
-  {% include archive-single.html %}
-{% endfor %}
-
-{% capture written_label %}'None'{% endcapture %}
-
-{% for collection in site.collections %}
-{% unless collection.output == false or collection.label == "posts" %}
-  {% capture label %}{{ collection.label }}{% endcapture %}
-  {% if label != written_label %}
-  <h2>{{ label }}</h2>
-  {% capture written_label %}{{ label }}{% endcapture %}
-  {% endif %}
-{% endunless %}
-{% for post in collection.docs %}
-  {% unless collection.output == false or collection.label == "posts" %}
-  {% include archive-single.html %}
-  {% endunless %}
-{% endfor %}
-{% endfor %}
+<div class="page-intro">
+  <p class="eyebrow">Site index</p>
+  <h1>Sitemap</h1>
+  <div class="page-links"><a href="{{ '/' | relative_url }}">About</a><a href="{{ '/publications/' | relative_url }}">Publications</a><a href="{{ '/cv/' | relative_url }}">CV</a></div>
+</div>
+<section class="home-section" aria-labelledby="paper-pages-title">
+  <h2 id="paper-pages-title">Publication detail pages</h2>
+  <ul>{% for paper in site.data.research.papers %}{% if paper.legacy %}<li><a href="{{ paper.legacy | relative_url }}">{{ paper.title | escape }}</a></li>{% endif %}{% endfor %}</ul>
+  <p><a href="{{ '/sitemap.xml' | relative_url }}">XML sitemap</a></p>
+</section>

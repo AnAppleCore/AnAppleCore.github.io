@@ -1,0 +1,140 @@
+# Shared content for the homepage, publication list, and existing paper URLs.
+# Publication status follows the author's CV; paper and code links point to
+# public primary sources. Keep future research interests distinct from results.
+name: Hongwei Yan
+name_zh: 燕鸿伟
+email: yanhw22@mails.tsinghua.edu.cn
+scholar: https://scholar.google.com/citations?user=fIaPliQAAAAJ
+github: https://github.com/AnAppleCore
+portrait: /images/profile.png
+cv_en: /files/Hongwei_Yan_CV_en.pdf
+cv_zh: /files/Hongwei_Yan_CV_zh.pdf
+
+papers:
+  - id: ce4l
+    image: /images/publications/ce4l.png
+    image_alt: "CE4L benchmark spanning continual ego- and exocentric video tasks"
+    title: "CE⁴L: Continual Ego, Exo, and Ego-Exo Learning"
+    authors: "<strong>Hongwei Yan</strong>, Kanglei Zhou, Yuchen Liu, Qingyu Shi, Yi Zhong, Liyuan Wang"
+    venue: ICML
+    year: 2026
+    status: published
+    selected: true
+    summary: "Introduces a multi-view continual learning benchmark spanning four video tasks and VISTA, a lightweight adapter method with training-free subspace routing for simultaneous task and viewpoint shifts."
+    paper: https://proceedings.mlr.press/v306/yan26y.html
+    code: https://github.com/AnAppleCore/CE4L
+
+  - id: flyprompt
+    image: /images/publications/flyprompt.png
+    image_alt: "FlyPrompt framework with random-expanded routing and temporal-ensemble experts"
+    title: "FlyPrompt: Brain-Inspired Random-Expanded Routing with Temporal-Ensemble Experts for General Continual Learning"
+    authors: "<strong>Hongwei Yan</strong>, Guanglong Sun, Kanglei Zhou, Qian Li, Liyuan Wang, Yi Zhong"
+    venue: ICLR
+    year: 2026
+    status: published
+    selected: true
+    summary: "Combines brain-inspired random-expanded routing with temporal-ensemble experts to learn from single-pass, evolving data streams without explicit task boundaries."
+    paper: https://arxiv.org/abs/2602.01976
+    code: https://github.com/AnAppleCore/FlyGCL
+    legacy: /publication/2026-02-05-flyprompt
+
+  - id: mepo
+    image: /images/publications/mepo.png
+    image_alt: "MePo post-pretraining and output alignment for general continual learning"
+    title: "MePo: Meta Post-Refinement for Rehearsal-Free General Continual Learning"
+    authors: "Guanglong Sun, <strong>Hongwei Yan</strong>, Liyuan Wang, Zhiqi Kang, Shuang Cui, Hang Su, Jun Zhu, Yi Zhong"
+    venue: ICML
+    year: 2026
+    status: published
+    summary: "Refines pretrained representations using pseudo task sequences and meta-learning, then uses a meta covariance reference to align outputs during rehearsal-free continual learning."
+    paper: https://proceedings.mlr.press/v306/sun26au.html
+    code: https://github.com/SunGL001/MePo
+
+  - id: spacing
+    image: /images/publications/spacing.png
+    image_alt: "Spaced learning across synaptic, neuronal and network levels, with generalization in artificial networks and fruit flies"
+    title: "Spacing Effect Improves Generalization in Biological and Artificial Systems"
+    authors: "Guanglong Sun*, Ning Huang*, <strong>Hongwei Yan</strong>, Jun Zhou, Qian Li, Bo Lei, Yi Zhong, Liyuan Wang"
+    venue: Patterns
+    year: 2026
+    status: published
+    distinction: Cover article
+    summary: "Connects spaced temporal ensembling in neural networks with memory generalization in fruit flies, showing how learning intervals and experience variability jointly shape generalization."
+    paper: https://doi.org/10.1016/j.patter.2026.101564
+    code: https://github.com/SunGL001/spacing_generalization
+
+  - id: commem
+    image: /images/publications/commem.png
+    image_alt: "ComMem combines fast-adapting visual memory and slowly integrated textual memory for test-time adaptation"
+    title: "ComMem: Complementary Memory Systems for Test-Time Adaptation of Vision-Language Models"
+    authors: "Guanglong Sun*, Shuang Cui*, Bo Lei*, Liyuan Wang, Zihan Zhai, <strong>Hongwei Yan</strong>, Hang Su, Jun Zhu, Yi Zhong"
+    venue: CoLLAs
+    year: 2026
+    status: published
+    summary: "Pairs a fast-updating visual memory with slowly refined textual prototypes to accumulate complementary knowledge and maintain cross-modal consistency at test time."
+    paper: https://arxiv.org/abs/2606.28719
+
+  - id: spaced-kd
+    image: /images/publications/spaced-kd.png
+    image_alt: "Spaced knowledge distillation schedules for online and self-distillation"
+    title: "Right Time to Learn: Promoting Generalization via Bio-inspired Spacing Effect in Knowledge Distillation"
+    authors: "Guanglong Sun*, <strong>Hongwei Yan*</strong>, Liyuan Wang, Qian Li, Bo Lei, Yi Zhong"
+    venue: ICML
+    year: 2025
+    status: published
+    selected: true
+    summary: "Introduces a time interval between teacher and student updates in online and self-distillation, connecting improved generalization to flatter optimization landscapes."
+    paper: https://proceedings.mlr.press/v267/sun25w.html
+    code: https://github.com/SunGL001/Spaced-KD
+    legacy: /publication/2025-05-01-spacedkd
+
+  - id: mindpainter
+    image: /images/publications/mindpainter.png
+    image_alt: "MindPainter pipeline for pseudo-brain signal optimization, cross-modal fine-tuning and brain-conditioned image generation"
+    title: "MindPainter: Efficient Brain-Conditioned Painting of Natural Images via Cross-Modal Self-Supervised Learning"
+    authors: "Muzhou Yu*, Shuyun Lin*, <strong>Hongwei Yan</strong>, Kaisheng Ma"
+    venue: AAAI
+    year: 2025
+    status: published
+    distinction: Oral
+    summary: "Uses cross-modal self-supervision, pseudo-brain signals and a brain adapter to condition image inpainting and outpainting on visual brain recordings."
+    paper: https://ojs.aaai.org/index.php/AAAI/article/view/33585
+    legacy: /publication/2025-04-11-mindpainter
+
+  - id: mose
+    image: /images/publications/mose.png
+    image_alt: "MOSE framework with multi-level supervision and reverse self-distillation"
+    title: "Orchestrate Latent Expertise: Advancing Online Continual Learning with Multi-Level Supervision and Reverse Self-Distillation"
+    authors: "<strong>Hongwei Yan</strong>, Liyuan Wang, Kaisheng Ma, Yi Zhong"
+    venue: CVPR
+    year: 2024
+    status: published
+    selected: true
+    summary: "Coordinates experts at multiple network depths with multi-level supervision and reverse self-distillation to balance underfitting and overfitting in online continual learning."
+    paper: https://arxiv.org/abs/2404.00417
+    code: https://github.com/AnAppleCore/MOSE
+    legacy: /publication/2024-04-02-mose
+
+  - id: hierarchical-modularity
+    image: /images/publications/hierarchical-modularity.png
+    image_alt: "Brain-inspired hierarchical modularity connects expert routing and temporal ensembles for evolving multimodal data"
+    title: "Brain-Inspired Hierarchical Modularity for General Continual Learning"
+    authors: "<strong>Hongwei Yan*</strong>, Kanglei Zhou*, Qi Cheng, Weiyi Dong, Chunyan Lan, Guanglong Sun, Jun Zhou, Qian Li, Yi Zhong, Liyuan Wang"
+    venue: Under review
+    year: 2026
+    status: preprint
+    summary: "Combines expert specialization with integration across spatial and temporal scales, adapting pretrained models to evolving streams in vision, multimodal, video and embodied learning."
+    paper: https://arxiv.org/abs/2609.25146
+    code: https://github.com/AnAppleCore/FlyGCL
+
+  - id: dgcl
+    image: /images/publications/dgcl.png
+    image_alt: "Domain Transformation separates semantic and domain embeddings during task training and aligns outputs across domains"
+    title: "Domain Generalizable Continual Learning"
+    authors: "<strong>Hongwei Yan</strong>, Guanglong Sun, Zhiqi Kang, Yi Zhong, Liyuan Wang"
+    venue: Under review
+    year: 2025
+    status: preprint
+    summary: "Introduces continual learning across tasks and domains, using adaptive Domain Transformation to separate semantic and domain information and align predictions across distributions."
+    paper: https://arxiv.org/abs/2510.16914
+    code: https://github.com/AnAppleCore/DGCL

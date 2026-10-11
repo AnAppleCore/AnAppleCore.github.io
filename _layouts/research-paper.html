@@ -1,0 +1,19 @@
+---
+layout: research
+---
+{% assign paper = site.data.research.papers | where: 'id', page.paper_id | first %}
+<article class="paper-detail">
+  <p class="back-link"><a href="{{ '/publications/' | relative_url }}">← All publications</a></p>
+  <p class="eyebrow">{{ paper.venue }} {{ paper.year }}{% if paper.distinction %} · {{ paper.distinction }}{% endif %}</p>
+  <h1>{{ paper.title | escape }}</h1>
+  <p class="paper-authors">{{ paper.authors }}</p>
+  <p class="paper-summary">{{ paper.summary }}</p>
+  <div class="paper-links">
+    <a href="{{ paper.paper }}">Read paper <span aria-hidden="true">↗</span></a>
+    {% if paper.code %}<a href="{{ paper.code }}">Source code <span aria-hidden="true">↗</span></a>{% endif %}
+  </div>
+  <section class="citation" aria-labelledby="citation-title">
+    <h2 id="citation-title">Citation</h2>
+    <p>{{ paper.authors | strip_html }}. {{ paper.title }}. <em>{{ paper.venue }}</em>, {{ paper.year }}.</p>
+  </section>
+</article>

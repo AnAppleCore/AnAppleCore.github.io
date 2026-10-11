@@ -1,7 +1,12 @@
 ---
+layout: research-paper
+section: publications
+paper_id: flyprompt
 title: "FlyPrompt: Brain-Inspired Random-Expanded Routing with Temporal-Ensemble Experts for General Continual Learning"
 collection: publications
-permalink: /publication/2026-02-05-flyprompt
+permalink: /publication/2026-02-05-flyprompt/
+redirect_from:
+  - /publication/2026-02-05-flyprompt.html
 excerpt: 'General continual learning (GCL) challenges intelligent systems to learn from single-pass, non-stationary data streams without clear task boundaries. We propose FlyPrompt, a brain-inspired framework with a randomly expanded analytic router for instance-level expert activation and a temporal ensemble of output heads, achieving strong gains on CIFAR-100, ImageNet-R, and CUB-200.'
 date: 2026-02-05
 venue: 'The Fourteenth International Conference on Learning Representations, 2026'

@@ -1,0 +1,21 @@
+<article class="paper{% if include.paper.image %} paper-with-image{% endif %}" id="{{ include.paper.id }}">
+  {% if include.paper.image %}
+  <a class="paper-image" href="{{ include.paper.paper }}" aria-label="Read {{ include.paper.title | escape }}">
+    <img src="{{ include.paper.image | relative_url }}" alt="{{ include.paper.image_alt | escape }}" width="180" height="120" loading="lazy" decoding="async">
+  </a>
+  {% endif %}
+  <div class="paper-body">
+    <div class="paper-meta">
+      <span class="paper-venue">{{ include.paper.venue }}{% if include.paper.status == 'published' %} {{ include.paper.year }}{% endif %}</span>
+      {% if include.paper.status == 'preprint' %}<span class="paper-distinction">{{ include.paper.year }} preprint</span>{% endif %}
+      {% if include.paper.distinction %}<span class="paper-distinction">{{ include.paper.distinction }}</span>{% endif %}
+    </div>
+    <h3><a href="{{ include.paper.paper }}">{{ include.paper.title | escape }}</a></h3>
+    <p class="paper-authors">{{ include.paper.authors }}</p>
+    <p class="paper-summary">{{ include.paper.summary }}</p>
+    <div class="paper-links">
+      <a href="{{ include.paper.paper }}" aria-label="Paper: {{ include.paper.title | escape }}">Paper <span aria-hidden="true">↗</span></a>
+      {% if include.paper.code %}<a href="{{ include.paper.code }}" aria-label="Code: {{ include.paper.title | escape }}">Code <span aria-hidden="true">↗</span></a>{% endif %}
+    </div>
+  </div>
+</article>
