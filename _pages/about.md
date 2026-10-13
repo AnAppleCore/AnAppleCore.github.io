@@ -13,8 +13,8 @@ redirect_from:
   <div class="hero-copy">
     <h1>Hongwei Yan <span class="name-zh" lang="zh">燕鸿伟</span></h1>
     <p class="hero-role">PhD student · School of Life Sciences, Tsinghua University</p>
-    <p class="hero-bio">I am jointly advised by <a href="https://life.tsinghua.edu.cn/info/1035/2478.htm">Yi Zhong</a> and <a href="https://group.iiis.tsinghua.edu.cn/~maks/leader.html">Kaisheng Ma</a>. I also collaborate with <a href="https://lywang3081.github.io/">Liyuan Wang</a> in Tsinghua's Department of Psychological and Cognitive Sciences and am a research intern at the Beijing Academy of Artificial Intelligence (BAAI).</p>
-    <p class="hero-bio">I trained in computer science in Tsinghua's Yao Class before starting my PhD in biology. This background shapes both sides of my research: translating mechanisms of learning and memory into machine-learning algorithms, and developing computational methods to study neural and biological data.</p>
+    <p class="hero-bio">I am a PhD student in Biology at Tsinghua University, jointly advised by Prof. <a href="https://life.tsinghua.edu.cn/info/1035/2478.htm">Yi Zhong</a> in the School of Life Sciences and Prof. <a href="https://group.iiis.tsinghua.edu.cn/~maks/leader.html">Kaisheng Ma</a> in the Institute for Interdisciplinary Information Sciences (IIIS). I received my B.Eng. in Computer Science from Tsinghua's Yao Class at IIIS in 2022.</p>
+    <p class="hero-bio">I'm interested in how insights from learning and memory in the brain can lead to better AI, and how AI can help us study the brain. I collaborate with Prof. <a href="https://lywang3081.github.io/">Liyuan Wang</a> in Tsinghua's Department of Psychological and Cognitive Sciences, and work with Dr. Bo Lei as a research intern in the Brain-inspired AI group at the Beijing Academy of Artificial Intelligence (BAAI).</p>
     <div class="contact-links" aria-label="Contact and profiles">
       <a href="mailto:{{ site.data.research.email }}">Email</a>
       <a href="{{ site.data.research.scholar }}">Google Scholar</a>
